@@ -2,7 +2,7 @@ module ApplicationHelper
 
   # Default title on site
   def title
-    base_title = 'Ruby on Rails Tutorial Sample App'
+    base_title = 'Sample App'
     if @title.nil?
       base_title
     else
